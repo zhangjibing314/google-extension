@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL 前缀添加器</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 300px;
+    }
+    select, input, button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h3></h3>
+  <label for="prefixSelect">选择解析接口:</label>
+  <select id="prefixSelect">
+    <option value="https://jx.nnxv.cn/tv.php?url=">七哥解析</option>
+    <option value="https://jx.hls.one/?url=">HLS免费解析</option>
+    <option value="https://jx.77flv.cc/?url=">77解析</option>
+    <option value="https://pl.a6club.com/player/analysis.php?v=">A6club</option>
+    <option value="https://rdfplayer.mrgaocloud.com/player/?url=">RdfPlayer</option>
+    <option value="https://jiexi.ibaopian.pro/player/?url=">宝片解析</option>
+    <option value="https://jx.2s0.cn/player/?url=">极速解析</option>
+    <option value="https://jx.nnsvip.cn/?url=">UTR解析</option>
+    <option value="https://im1907.top/?jx=">M1907</option>
+  </select>
+  
+  <label for="vip's url">待解析网址:</label>
+  <input type="text" id="urlInput" placeholder="输入网址">
+  <button id="openButton">开始解析</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
