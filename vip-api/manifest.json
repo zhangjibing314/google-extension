@@ -3,6 +3,11 @@
   "name": "vip 视频解析器",
   "version": "1.0",
   "description": "调用一些的视频解析接口，解析需要 vip 才能观看的视频网址，除此之外，没那么多花里胡哨的东西",
+  "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+  },
   "permissions": ["tabs"],
   "action": {
     "default_popup": "popup.html",
